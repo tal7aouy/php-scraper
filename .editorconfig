@@ -1,0 +1,27 @@
+root = true
+
+[*]
+# Set default charset
+charset = utf-8
+
+# Set default indentation style and size
+indent_style = space
+indent_size = 4
+
+# Set default line ending
+end_of_line = lf
+
+# Ensure files end with a newline
+insert_final_newline = true
+
+# Trim trailing whitespace
+trim_trailing_whitespace = true
+
+# Specific settings for PHP files
+[*.php]
+indent_style = space
+indent_size = 4
+
+# Specific settings for Markdown files
+[*.md]
+trim_trailing_whitespace = false

@@ -6,7 +6,6 @@ use Nesk\Puphpeteer\Puppeteer;
 use Nesk\Rialto\Data\JsFunction;
 
 
-
 // open a new Chromium browser window
 
 $puppeteer = new Puppeteer();
@@ -51,7 +50,6 @@ foreach ($product_elements as $product_element) {
 
     $products[] = $product;
 }
-
 
 // echo "<pre>";
 // var_dump($products);
